@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference android:key = "msg"
+	    android:title="Edit message!"
+	    android:defaultValue="Help Me! I am in trouble!"
+	    android:textSize="20sp"
+	    />
+    
+    <CheckBoxPreference android:key = "msg_c"
+	    android:title = "Message"
+	    android:summary="Check to Enable"
+	    	android:defaultValue="true"
+	    	android:textSize="18sp"
+	    />
+	 
+	<CheckBoxPreference android:key = "alarm_c"
+	    android:title = "Alarm"
+	    android:summary="Check to Enable"
+	    	android:defaultValue="true"
+	    	android:textSize="21sp"
+	    />
+	
+    	<CheckBoxPreference android:key = "flash_c"
+	    android:title = "Flash"
+	    android:summary="Check to Enable"
+	    	android:defaultValue="true"
+	    	android:textSize="21sp"
+	    />
+ 
+    	<CheckBoxPreference android:key = "vid_c"
+	    android:title = "Video"
+	    android:summary="Check to Enable"
+	    	android:defaultValue="true"
+	    	android:textSize="18sp"
+	    />
+
+</PreferenceScreen>

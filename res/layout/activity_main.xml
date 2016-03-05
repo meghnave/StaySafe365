@@ -1,0 +1,98 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0"
+        android:orientation="vertical" >
+        
+	<Button
+	    android:id="@+id/start"
+	    android:layout_width="match_parent"
+	    android:layout_height="200dp"
+	    android:background="@drawable/colour1"
+	    android:text="START"
+	    android:textColor="#ACACAA"
+	    android:textSize="40sp" />
+    		
+    </LinearLayout>	             
+		
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="100">
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+ 
+       <Button
+           android:id="@+id/edit_contacts"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:background="@drawable/colour"
+           android:text="View/Edit Contacts"
+           android:textColor="#504A4B"
+           android:textSize="25sp" />
+       
+       <Button
+           android:id="@+id/fake"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:background="@drawable/colour"
+           android:text="Fake Call"
+           android:textColor="#504A4B"
+           android:textSize="25sp" />
+     
+		<Button
+		    android:id="@+id/settings"
+		    android:layout_width="match_parent"
+		    android:layout_height="70dp"
+		    android:background="@drawable/colour"
+		    android:text="Settings"
+		    android:textColor="#504A4B"
+		    android:textSize="25sp" />
+
+     <Button
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/colour"
+        android:text="Help"
+        android:textColor="#504A4B"
+        android:textSize="25sp" />
+    
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/colour"
+        android:hint="@string/app_name"
+        android:text="About"
+        android:textColor="#504A4B"
+        android:textSize="25sp" />
+    
+     <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:visibility="invisible" >
+
+     <EditText
+        android:id="@+id/editMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    </FrameLayout>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
